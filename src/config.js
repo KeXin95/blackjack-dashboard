@@ -16,7 +16,7 @@ console.log('Environment Debug:', {
 });
 
 export const API_ENDPOINTS = {
-  comparison: `${API_BASE_URL}/api/quick-comparison`,
+  comparison: `${API_BASE_URL}/api/comparison`,
   strategies: `${API_BASE_URL}/api/strategies`,
   strategy: (key) => `${API_BASE_URL}/api/strategy/${key}`,
 }; 
