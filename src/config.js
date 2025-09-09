@@ -4,7 +4,7 @@ const isProduction = import.meta.env.PROD ||
                     window.location.hostname.includes('vercel.app');
 
 const API_BASE_URL = isProduction
-  ? 'https://web-production-7688.up.railway.app' 
+  ? 'https://blackjack-backend-jzt6.onrender.com'
   : 'http://localhost:5001';
 
 // Debug logging
