@@ -5,7 +5,6 @@ const isProduction = import.meta.env.PROD ||
 
 const API_BASE_URL = isProduction
   ? 'blackjack-backend-jzt6.onrender.com'
-  // ? 'https://web-production-7688.up.railway.app' 
   : 'http://localhost:5001';
 
 // Debug logging
